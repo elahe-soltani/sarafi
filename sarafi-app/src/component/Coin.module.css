@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 50px;
+    width: 850px;
+    border: 1px solid #fb7785;
+    box-shadow: 0 4px 8px 0 #fb7785, 0 6px 20px 0 #fb7785;
+    padding: 20px 50px 30px 20px;
+    border-radius: 10px;
+
+}
+.container img{
+    width: 50px;
+}
+.container span{
+    font-weight: bold;
+    text-align: left;
+    width: 100px;
+}
+.symbol{
+    color: #e8875e;
+}
+.redPriceChange{
+    color: rgb(255, 38, 38);
+}
+.greenPriceChange{
+    color: rgb(0, 204, 0);
+}

@@ -1,0 +1,25 @@
+*{
+    background-color: #302b4f;
+    color: #FFFF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+}
+.container input{
+    border: none;
+    padding: 10px 50px;
+    box-shadow: 0 4px 8px 0 #6a67f4, 0 6px 15px 0 #6a67f4;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+input:focus{
+    background-color: #464075;
+    box-shadow: 0 4px 8px 0 #fb7785, 0 6px 15px 0 #fb7785;
+    outline: none;
+}
